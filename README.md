@@ -1,3 +1,3 @@
-# angular-starter
+node v20.15.0
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/SirSerje/angular-starter)
+`npm i; npm run start`
