@@ -1,13 +1,6 @@
-import { Component } from '@angular/core';
+// src/main.ts
 import { bootstrapApplication } from '@angular/platform-browser';
+import { App } from './app/app';
 
-@Component({
-  selector: 'app-root',
-  standalone: true,
-  templateUrl: './main.html',
-})
-export class App {
-  name = 'Angular';
-}
-
-bootstrapApplication(App);
+bootstrapApplication(App)
+  .catch(err => console.error(err));
